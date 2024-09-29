@@ -15,8 +15,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProjectsDisplay from "@/components/ProjectsDisplay";
 
-import RoboConEvent from "@/components/RoboConEvent";
-
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -121,9 +119,9 @@ export default function Home() {
       </section>
 
       {/*Banner section*/}
-      <section className="relative max-md:mt-20">
+      {/* <section className="relative max-md:mt-20">
         <RoboConEvent />
-      </section>
+      </section> */}
 
       <section>
         <ProjectsDisplay/>

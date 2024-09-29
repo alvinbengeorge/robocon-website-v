@@ -1,7 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import { useEffect } from "react";
-
-import Image from "next/image";
 import { BiDownload } from "react-icons/bi";
 
 const RoboConEvent = () => {
